@@ -1,0 +1,38 @@
+.account {
+  max-width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+}
+
+.sidebar {
+  display: inline-block;
+  float: left;
+  min-width: 208px;
+  border: 1px solid #d8d8d8;
+  padding: 0px;
+}
+
+.sidebar .header {
+  margin: 0;
+  background-color: #F7F7F7;
+}
+
+.sidebar .sidebar-item {
+  padding:5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.sidebar .sidebar-item.active {
+  cursor: auto;
+  font-weight: bold;
+}
+
+.sidebar .sidebar-item.active:hover {
+  background-color: #FFF
+}
+
+.sidebar .sidebar-item:hover {
+  background-color: #f9f9f9;
+}
